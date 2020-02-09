@@ -44,4 +44,4 @@ Los eventos admitirán comentarios y valoraciones por parte de los usuarios, lo 
 # Elemento de innovación
 
 - Amazon S3 para almacenar los datos, imágenes de los usuarios y eventos.
-- Paypal. Para el pago para mayor seguridad y tranquilidad.
+- Paypal. Como método de pago.
