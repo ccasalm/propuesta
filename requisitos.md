@@ -343,6 +343,474 @@
 | **Entrega**     | v1             |
 
 
+| **R39**     | **Registrar usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación debe permitir registrar usuarios             |
+| **Prioridad**   | Mínimo           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R40**     | **Modificar usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación debe permitir que un usuario modifique su perfil             |
+| **Prioridad**   | Mínimo           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R41**     | **Eliminar usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación debe permitir que un usuario elimine su cuenta             |
+| **Prioridad**   | Mínimo           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R42**     | **Registrar un evento**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación debe permitir que un usuario-empresa registre un evento.              |
+| **Prioridad**   | Mínimo           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R43**     | **Modificar un evento**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación debe permitir que un usuario-empresa modifique un evento.             |
+| **Prioridad**   | Mínimo           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R44**     | **Eliminar un evento**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación debe permitir eliminar eventos. Un evento debe ser eliminado solo por el administrador             |
+| **Prioridad**   | Mínimo           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R45**     | **Visualizar un usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación debe permitir que cada usuario pueda ver su perfil             |
+| **Prioridad**   | Mínimo           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R46**     | **Visualizar un evento**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación debe permitir que todos los eventos puedan ser visualizados. Al menos los activos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R47**     | **Registrar categoría**         |
+| --------------: | :------------------- |
+| **Descripción** | Un administrador podrá registrar una categoría de evento             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R48**     | **Modificar categoría**         |
+| --------------: | :------------------- |
+| **Descripción** | Un administrador podrá modificar una categoría de evento             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R49**     | **Eliminar categoría**         |
+| --------------: | :------------------- |
+| **Descripción** | Un administrador podrá eliminar una categoría siempre que no la use un evento.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R50**     | **Administrar usuarios**         |
+| --------------: | :------------------- |
+| **Descripción** | Un administrador podrá visualizar todos los usuarios y realizar cualquier acción: Registrar, modificar, eliminar             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R51**     | **Administrar eventos**         |
+| --------------: | :------------------- |
+| **Descripción** | Un administrador podrá visualizar todos los eventos y realizar cualquier acción: Registrar, modificar, eliminar             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R52**     | **Iniciar sesión**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación debe permitir que un usuario registrado pueda iniciar sesión             |
+| **Prioridad**   | Mínimo           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R53**     | **Cerrar sesión**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación debe permitir que un usuario que previamente haya iniciado sesión pueda cerrar sesión.             |
+| **Prioridad**   | Mínimo           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R54**     | **Correo de confirmación**         |
+| --------------: | :------------------- |
+| **Descripción** | Un usuario deberá confirmar su cuenta mediante un email de confirmación.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R55**     | **Recuperar Contraseña**         |
+| --------------: | :------------------- |
+| **Descripción** | Un usuario podrá recuperar su contraseña mediante un email de recuperación             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R56**     | **Crear entradas**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación deberá permitir generar entradas cuando se registre un evento.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R57**     | **Estadísticas de ventas**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación debe permitir que cada usuario-cliente y pueda ver las estadísticas de ventas de las entradas de su evento.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R58**     | **Contacto con el usuario-empresa**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios-clientes podrán contactar con el usuario-empresa organizador del evento             |
+| **Prioridad**   | Mínimo           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R59**     | **Valorar evento**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios-clientes podrán valorar un evento dándole una puntuación             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R60**     | **Comentar evento**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios-clientes podrán comentar un evento             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R61**     | **Mostrar eventos**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación debe mostrar todos los eventos disponibles             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R62**     | **Filtrar eventos**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación permitirá filtrar los eventos: ciudad, evento, categoría, fecha.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R63**     | **Ubicar evento**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación tendrá ubicado cada evento, localidad, provincia, código postal. Solo en España.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R64**     | **Ordenar eventos**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación permitirá ordenar los eventos: ciudad, evento, categoría, fecha. Tanto de forma ascendente como descendente             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R65**     | **Eligir idioma**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación permitirá elegir idioma. Español- Inglés.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R66**     | **Comprar entrada**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación debe permitir que se compren entradas para un evento.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R67**     | **Ver historial de compras**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación debe permitir al usuario-cliente ver su historial de compras             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R68**     | **Ver entrada**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios podrán ver sus entradas de eventos activos             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R69**     | **Preferencias**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios-clientes podrán determinar sus preferencias, para que así les aparezcan eventos relacionados con las mismas             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R70**     | **Buscar evento**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación permitirá buscar los eventos por : Artista, ciudad, evento, categoría, fecha             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R71**     | **Imprimir entrada**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación deberá generar un PDF de la entrada para que el usuario pueda imprimirla             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R72**     | **Subir cartel evento**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación debe permitir al usuario-empresa subir el cartel de sus eventos             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R73**     | **Modificar cartel**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación debe permitir al usuario empresa modificar el cartel de sus eventos             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R74**     | **Múltiples entradas**         |
+| --------------: | :------------------- |
+| **Descripción** | Un mismo usuario puede comprar múltiples entradas             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R75**     | **Autentificación entrada**         |
+| --------------: | :------------------- |
+| **Descripción** | Cada entrada debe autenticarse según la categoría del evento.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R76**     | **Crear tipo de entrada**         |
+| --------------: | :------------------- |
+| **Descripción** | Según el evento, habrá o no distintos tipos de entrada, los cuáles determinarán el precio de la misma             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R77**     | **Elegir asiento**         |
+| --------------: | :------------------- |
+| **Descripción** | Si el evento lo permite, el usuario cliente podrá elegir asiento             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R78**     | **Reserva hotel cercano**         |
+| --------------: | :------------------- |
+| **Descripción** | Se le dará la opción al cliente de reservar en un hotel cercano mediante booking             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R79**     | **Compartir evento**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios podrán compartir un evento             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R80**     | **Newsletter**         |
+| --------------: | :------------------- |
+| **Descripción** | Habrá un apartado de noticias de eventos a nivel nacional             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R81**     | **Mostrar listado eventos**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación permitirá elegir como se mostraran los eventos, si de una forma detallada (imagen del evento, etc) o simplemente una lista en la que aparezcan los detalles generales, como el nombre del evento, ciudad y fecha.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R82**     | **Almacenar datos entidad/modelo usuarios**         |
+| --------------: | :------------------- |
+| **Descripción** | Se almacenará los siguientes datos como mínimo: id, login, password, nombre, apellidos, fecha nacimiento, email.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R83**     | **Almacenar datos entidad/modelo eventos**         |
+| --------------: | :------------------- |
+| **Descripción** | Se almacenará los siguientes datos como mínimo: id, nombre, ciudad, dirección, cod_postal, fecha, categoría, usuario_empresa_id             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R84**     | **Almacenar datos entidad/modelo comentarios**         |
+| --------------: | :------------------- |
+| **Descripción** | Se almacenará los siguientes datos como mínimo: id, num_comentario, usuario_id, evento_id, created_at             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R85**     | **Almacenar datos entidad/modelo entradas**         |
+| --------------: | :------------------- |
+| **Descripción** | Se almacenará los siguientes datos como mínimo: id, num_entrada, evento_id, cliente_id             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R86**     | **Almacenar datos entidad/modelo valoraciones**         |
+| --------------: | :------------------- |
+| **Descripción** | Se almacenará los siguientes datos como mínimo: id, num_valoracion, evento_id, cliente_id             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R87**     | **Realizar seguimiento evento**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación debe permitir que los usuarios-clientes puedan seguir a un evento, conociendo en todo momento las novedades             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R88**     | **Sistema de ayuda**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación tendrá un apartado destinado a ayudar a los usuarios y resolver posibles incidencias con el sitio web.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R89**     | **Pago mediante paypal**         |
+| --------------: | :------------------- |
+| **Descripción** | El pago se realizará a través de paypal             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R90**     | **Pago mediante bizum**         |
+| --------------: | :------------------- |
+| **Descripción** | El pago se podrá realizar a través de bizum              |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
 
 ## Cuadro resumen
 
@@ -386,3 +854,55 @@
 | (**R36**) Varios navegadores | Mínimo | Técnico | Fácil | v1 | 
 | (**R37**) Despliegue en un Host | Mínimo | Técnico | Fácil | v1 | 
 | (**R38**) Despliegue en un servidor local | Mínimo | Técnico | Fácil | v1 | 
+| (**R39**) Registrar usuario | Mínimo | Funcional | Fácil | v1 | 
+| (**R40**) Modificar usuario | Mínimo | Funcional | Fácil | v1 | 
+| (**R41**) Eliminar usuario | Mínimo | Funcional | Fácil | v1 | 
+| (**R42**) Registrar un evento | Mínimo | Funcional | Fácil | v1 | 
+| (**R43**) Modificar un evento | Mínimo | Funcional | Fácil | v1 | 
+| (**R44**) Eliminar un evento | Mínimo | Funcional | Fácil | v1 | 
+| (**R45**) Visualizar un usuario | Mínimo | Funcional | Fácil | v1 | 
+| (**R46**) Visualizar un evento | Importante | Funcional | Fácil | v1 | 
+| (**R47**) Registrar categoría | Importante | Funcional | Fácil | v1 | 
+| (**R48**) Modificar categoría | Importante | Funcional | Fácil | v1 | 
+| (**R49**) Eliminar categoría | Importante | Funcional | Fácil | v1 | 
+| (**R50**) Administrar usuarios | Importante | Funcional | Fácil | v1 | 
+| (**R51**) Administrar eventos | Importante | Funcional | Fácil | v1 | 
+| (**R52**) Iniciar sesión | Mínimo | Funcional | Fácil | v1 | 
+| (**R53**) Cerrar sesión | Mínimo | Funcional | Fácil | v1 | 
+| (**R54**) Correo de confirmación | Importante | Funcional | Media | v1 | 
+| (**R55**) Recuperar Contraseña | Importante | Funcional | Media | v1 | 
+| (**R56**) Crear entradas | Importante | Funcional | Fácil | v1 | 
+| (**R57**) Estadísticas de ventas | Importante | Funcional | Fácil | v1 | 
+| (**R58**) Contacto con el usuario-empresa | Mínimo | Funcional | Media | v1 | 
+| (**R59**) Valorar evento | Importante | Funcional | Fácil | v1 | 
+| (**R60**) Comentar evento | Importante | Funcional | Fácil | v1 | 
+| (**R61**) Mostrar eventos | Importante | Funcional | Fácil | v1 | 
+| (**R62**) Filtrar eventos | Importante | Funcional | Fácil | v1 | 
+| (**R63**) Ubicar evento | Importante | Funcional | Media | v1 | 
+| (**R64**) Ordenar eventos | Importante | Funcional | Fácil | v1 | 
+| (**R65**) Eligir idioma | Importante | Funcional | Fácil | v1 | 
+| (**R66**) Comprar entrada | Importante | Funcional | Fácil | v1 | 
+| (**R67**) Ver historial de compras | Importante | Funcional | Fácil | v1 | 
+| (**R68**) Ver entrada | Importante | Funcional | Media | v1 | 
+| (**R69**) Preferencias | Importante | Funcional | Media | v1 | 
+| (**R70**) Buscar evento | Importante | Funcional | Fácil | v1 | 
+| (**R71**) Imprimir entrada | Importante | Funcional | Media | v1 | 
+| (**R72**) Subir cartel evento | Importante | Funcional | Fácil | v1 | 
+| (**R73**) Modificar cartel | Importante | Funcional | Fácil | v1 | 
+| (**R74**) Múltiples entradas | Importante | Funcional | Fácil | v1 | 
+| (**R75**) Autentificación entrada | Importante | Funcional | Media | v1 | 
+| (**R76**) Crear tipo de entrada | Importante | Funcional | Media | v1 | 
+| (**R77**) Elegir asiento | Opcional | Funcional | Difícil | v3 | 
+| (**R78**) Reserva hotel cercano | Opcional | Funcional | Media | v3 | 
+| (**R79**) Compartir evento | Opcional | Funcional | Media | v2 | 
+| (**R80**) Newsletter | Opcional | Funcional | Media | v2 | 
+| (**R81**) Mostrar listado eventos | Importante | Funcional | Fácil | v2 | 
+| (**R82**) Almacenar datos entidad/modelo usuarios | Importante | Información | Fácil | v1 | 
+| (**R83**) Almacenar datos entidad/modelo eventos | Importante | Información | Fácil | v1 | 
+| (**R84**) Almacenar datos entidad/modelo comentarios | Importante | Información | Fácil | v1 | 
+| (**R85**) Almacenar datos entidad/modelo entradas | Importante | Información | Fácil | v1 | 
+| (**R86**) Almacenar datos entidad/modelo valoraciones | Importante | Información | Fácil | v1 | 
+| (**R87**) Realizar seguimiento evento | Importante | Funcional | Fácil | v2 | 
+| (**R88**) Sistema de ayuda | Importante | Funcional | Media | v3 | 
+| (**R89**) Pago mediante paypal | Importante | Funcional | Media | v2 | 
+| (**R90**) Pago mediante bizum | Opcional | Funcional | Media | v3 | 
