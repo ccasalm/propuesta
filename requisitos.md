@@ -622,7 +622,7 @@
 | **Entrega**     | v1             |
 
 
-| **R70**     | **Buscar evento**         |
+| **R70**     | **Buscar eventos**         |
 | --------------: | :------------------- |
 | **Descripción** | La aplicación permitirá buscar los eventos por : Artista, ciudad, evento, categoría, fecha             |
 | **Prioridad**   | Importante           |
@@ -732,7 +732,7 @@
 
 | **R82**     | **Almacenar datos entidad/modelo usuarios**         |
 | --------------: | :------------------- |
-| **Descripción** | Se almacenará los siguientes datos como mínimo: id, login, password, nombre, apellidos, fecha nacimiento, email.             |
+| **Descripción** | Se almacenará los siguientes datos como mínimo: id, login, password, created_at, nombre, apellidos, fecha_nac, email, teléfono             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Información                |
 | **Complejidad** | Fácil         |
@@ -741,7 +741,7 @@
 
 | **R83**     | **Almacenar datos entidad/modelo eventos**         |
 | --------------: | :------------------- |
-| **Descripción** | Se almacenará los siguientes datos como mínimo: id, nombre, ciudad, dirección, cod_postal, fecha, categoría, usuario_empresa_id             |
+| **Descripción** | Se almacenará los siguientes datos como mínimo: id, nombre, ciudad, dirección, cod_postal, fecha, categoría, usuario_empresa_id, created_at             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Información                |
 | **Complejidad** | Fácil         |
@@ -759,7 +759,7 @@
 
 | **R85**     | **Almacenar datos entidad/modelo entradas**         |
 | --------------: | :------------------- |
-| **Descripción** | Se almacenará los siguientes datos como mínimo: id, num_entrada, evento_id, cliente_id             |
+| **Descripción** | Se almacenará los siguientes datos como mínimo: id, num_entrada, evento_id, cliente_id, created_at, fecha_vendida             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Información                |
 | **Complejidad** | Fácil         |
@@ -768,7 +768,7 @@
 
 | **R86**     | **Almacenar datos entidad/modelo valoraciones**         |
 | --------------: | :------------------- |
-| **Descripción** | Se almacenará los siguientes datos como mínimo: id, num_valoracion, evento_id, cliente_id             |
+| **Descripción** | Se almacenará los siguientes datos como mínimo: id, num_valoracion, evento_id, cliente_id, created_at             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Información                |
 | **Complejidad** | Fácil         |
@@ -786,7 +786,7 @@
 
 | **R88**     | **Sistema de ayuda**         |
 | --------------: | :------------------- |
-| **Descripción** | La aplicación tendrá un apartado destinado a ayudar a los usuarios y resolver posibles incidencias con el sitio web.             |
+| **Descripción** | La aplicación tendrá un apartado destinado a ayudar a los usuarios y resolver posibles incidencias con el sitio web             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
@@ -809,6 +809,78 @@
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
 | **Entrega**     | v3             |
+
+
+| **R91**     | **Ordenar comentarios**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación permitirá ordenar los comentarios: usuario_id, evento_id, created_at             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R92**     | **Buscar comentarios**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación permitirá buscar los comentarios por: usuario_id, evento_id, created_at             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R93**     | **Ordenar usuarios**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación permitirá ordenar los comentarios por : login, nombre, apellidos, fecha_nac, email, teléfono, created_at             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R94**     | **Buscar usuarios**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación permitirá buscar los usuarios por: login, nombre, apellidos, fecha_nac, email, teléfono, created_at             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R95**     | **Ordenar valoraciones**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación permitirá ordenar las valoraciones por : evento_id, usuario_id, created_at             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R96**     | **Buscar valoraciones**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación permitirá buscar las valoraciones por: evento_id, usuario_id, created_at             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R97**     | **Ordenar entradas**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación permitirá ordenar las entradas de un evento por : usuario_id, evento_id, fecha_vendida             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R98**     | **Buscar entradas**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación permitirá buscar las entradas de un evento por: usuario_id, evento_id, fecha_vendida             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
 
 
 
@@ -885,7 +957,7 @@
 | (**R67**) Ver historial de compras | Importante | Funcional | Fácil | v1 | 
 | (**R68**) Ver entrada | Importante | Funcional | Media | v1 | 
 | (**R69**) Preferencias | Importante | Funcional | Media | v1 | 
-| (**R70**) Buscar evento | Importante | Funcional | Fácil | v1 | 
+| (**R70**) Buscar eventos | Importante | Funcional | Fácil | v1 | 
 | (**R71**) Imprimir entrada | Importante | Funcional | Media | v1 | 
 | (**R72**) Subir cartel evento | Importante | Funcional | Fácil | v1 | 
 | (**R73**) Modificar cartel | Importante | Funcional | Fácil | v1 | 
@@ -906,3 +978,11 @@
 | (**R88**) Sistema de ayuda | Importante | Funcional | Media | v3 | 
 | (**R89**) Pago mediante paypal | Importante | Funcional | Media | v2 | 
 | (**R90**) Pago mediante bizum | Opcional | Funcional | Media | v3 | 
+| (**R91**) Ordenar comentarios | Importante | Funcional | Fácil | v1 | 
+| (**R92**) Buscar comentarios | Importante | Funcional | Fácil | v1 | 
+| (**R93**) Ordenar usuarios | Importante | Funcional | Fácil | v1 | 
+| (**R94**) Buscar usuarios | Importante | Funcional | Fácil | v1 | 
+| (**R95**) Ordenar valoraciones | Importante | Funcional | Fácil | v1 | 
+| (**R96**) Buscar valoraciones | Importante | Funcional | Fácil | v1 | 
+| (**R97**) Ordenar entradas | Importante | Funcional | Fácil | v1 | 
+| (**R98**) Buscar entradas | Importante | Funcional | Fácil | v1 | 
