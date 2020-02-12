@@ -581,8 +581,8 @@
 | --------------: | :------------------- |
 | **Descripción** | La aplicación permitirá elegir idioma. Español- Inglés.             |
 | **Prioridad**   | Importante           |
-| **Tipo**        | Funcional                |
-| **Complejidad** | Fácil         |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Media         |
 | **Entrega**     | v1             |
 
 
@@ -797,7 +797,7 @@
 | --------------: | :------------------- |
 | **Descripción** | El pago se realizará a través de paypal             |
 | **Prioridad**   | Importante           |
-| **Tipo**        | Funcional                |
+| **Tipo**        | Técnico                |
 | **Complejidad** | Media         |
 | **Entrega**     | v2             |
 
@@ -806,7 +806,7 @@
 | --------------: | :------------------- |
 | **Descripción** | El pago se podrá realizar a través de bizum              |
 | **Prioridad**   | Opcional           |
-| **Tipo**        | Funcional                |
+| **Tipo**        | Técnico                |
 | **Complejidad** | Media         |
 | **Entrega**     | v3             |
 
@@ -883,6 +883,51 @@
 | **Entrega**     | v1             |
 
 
+| **R99**     | **Uso de Amazon s3**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación usará Amazon S3 para el almacenamiento de datos seguro en la nube.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R100**     | **Almacenar datos entidad/modelo compras**         |
+| --------------: | :------------------- |
+| **Descripción** | Cada vez que un usuario compre una entrada, saltará un trigger, el cual insertará a su vez una fila en esta entidad/modelo. Se almacenará al menos: id, usuario_id, evento_id, created_at, precio.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R101**     | **Ordenar compras**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación permitirá ordenar las compras de un usuario por: evento_id, created_at, precio             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R102**     | **Buscar compras**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación permitirá buscar compras de un usuario por: evento_id, created_at, precio.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R103**     | **Pago de servicios**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios-empresa podrán contratar un servicio para que su evento mejoré su visibilidad en la lista de eventos recomendados             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
 
 ## Cuadro resumen
 
@@ -952,7 +997,7 @@
 | (**R62**) Filtrar eventos | Importante | Funcional | Fácil | v1 | 
 | (**R63**) Ubicar evento | Importante | Funcional | Media | v1 | 
 | (**R64**) Ordenar eventos | Importante | Funcional | Fácil | v1 | 
-| (**R65**) Eligir idioma | Importante | Funcional | Fácil | v1 | 
+| (**R65**) Eligir idioma | Importante | Técnico | Media | v1 | 
 | (**R66**) Comprar entrada | Importante | Funcional | Fácil | v1 | 
 | (**R67**) Ver historial de compras | Importante | Funcional | Fácil | v1 | 
 | (**R68**) Ver entrada | Importante | Funcional | Media | v1 | 
@@ -976,8 +1021,8 @@
 | (**R86**) Almacenar datos entidad/modelo valoraciones | Importante | Información | Fácil | v1 | 
 | (**R87**) Realizar seguimiento evento | Importante | Funcional | Fácil | v2 | 
 | (**R88**) Sistema de ayuda | Importante | Funcional | Media | v3 | 
-| (**R89**) Pago mediante paypal | Importante | Funcional | Media | v2 | 
-| (**R90**) Pago mediante bizum | Opcional | Funcional | Media | v3 | 
+| (**R89**) Pago mediante paypal | Importante | Técnico | Media | v2 | 
+| (**R90**) Pago mediante bizum | Opcional | Técnico | Media | v3 | 
 | (**R91**) Ordenar comentarios | Importante | Funcional | Fácil | v1 | 
 | (**R92**) Buscar comentarios | Importante | Funcional | Fácil | v1 | 
 | (**R93**) Ordenar usuarios | Importante | Funcional | Fácil | v1 | 
@@ -986,3 +1031,8 @@
 | (**R96**) Buscar valoraciones | Importante | Funcional | Fácil | v1 | 
 | (**R97**) Ordenar entradas | Importante | Funcional | Fácil | v1 | 
 | (**R98**) Buscar entradas | Importante | Funcional | Fácil | v1 | 
+| (**R99**) Uso de Amazon s3 | Importante | Técnico | Media | v1 | 
+| (**R100**) Almacenar datos entidad/modelo compras | Importante | Funcional | Fácil | v1 | 
+| (**R101**) Ordenar compras | Importante | Funcional | Fácil | v1 | 
+| (**R102**) Buscar compras | Importante | Funcional | Fácil | v1 | 
+| (**R103**) Pago de servicios | Importante | Funcional | Media | v2 | 

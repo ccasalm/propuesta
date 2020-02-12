@@ -37,7 +37,7 @@ Los eventos admitirán comentarios y valoraciones por parte de los usuarios, lo 
 * Objetivo: "Comprar entradas (usuario cliente) y vender entradas (usuario empresa)".
 * Casos de uso: 
 	- Invitado: "buscar y filtrar eventos", "ver valoraciones", "ver información detallada sobre un evento", "registrarse".
-	- Usuario cliente: "iniciar sesión", "cerrar sesión", "comprar entrada", "comentar evento", "buscar eventos", "ver valoraciones", "ver información detallada sobre un evento", "buscar y filtrar eventos", "valorar evento", "ver perfil personal", "modificar perfil personal", "eliminar cuenta de usuario cliente", "Seguir y recibir notificaciones de eventos de una determinada empresa", "contactar con la empresa organizadora del evento".
+	- Usuario cliente: "iniciar sesión", "cerrar sesión", "comprar entrada", "comentar evento", "buscar eventos", "ver valoraciones", "ver información detallada sobre un evento", "buscar y filtrar eventos", "valorar evento", "ver perfil personal", "modificar perfil personal", "eliminar cuenta de usuario cliente", "Seguir y recibir notificaciones de eventos de una determinada empresa", "contactar con la empresa organizadora del evento", "ver su historial de compras".
 	- Usuario empresa: "iniciar sesión", "cerrar sesión", "publicar evento", "modificar evento", "eliminar evento", "ver perfil de la empresa", "modificar perfil de la empresa", "ver valoraciones de otras empresas", "ver información detallada sobre un evento", "buscar y filtrar eventos", "contratar servicios", "ver seguimiento de las ventas de las entradas de un evento propio", "ver comentarios en sus eventos y valoraciones", "eliminar cuenta de usuario empresa".
 	- Administrador: "iniciar sesión", "cerrar sesión", "comentar evento", "buscar eventos", "ver valoraciones", "ver comentarios", "eliminar comentarios", "ver información detallada sobre un evento", "buscar y filtrar eventos", "valorar evento", "ver perfiles de los usuario cliente", "modificar perfil de los usuarios cliente", "eliminar cuenta de usuario cliente", "eliminar cuenta de usuario empresa", "contactar con la empresa organizadora del evento". "publicar evento", "modificar evento", "eliminar evento", "ver perfiles de las empresas", "modificar perfiles de las empresas", "ver valoraciones de las empresas", "ver información detallada sobre un evento", "buscar y filtrar eventos", "contratar servicios", "ver seguimiento de las ventas de las entradas de un evento propio", "banear cuentas de usuarios".
 
@@ -45,3 +45,4 @@ Los eventos admitirán comentarios y valoraciones por parte de los usuarios, lo 
 
 - Amazon S3 para almacenar los datos, imágenes de los usuarios y eventos.
 - Paypal. Como método de pago.
+- Multi-idioma. La página tendrá los idiomas: Español y Inglés.
